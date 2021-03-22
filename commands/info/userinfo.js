@@ -5,7 +5,7 @@ module.exports = {
     expectedArgs: '<@mentionUser>',
     minArgs: 0,
     maxArgs: 1,
-    callback: message => {
+    callback: (message) => {
          
         const { guild, channel } = message;
 
